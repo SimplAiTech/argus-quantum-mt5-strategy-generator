@@ -1,0 +1,207 @@
+{
+ "symbol": "XAUUSD",
+ "timeframe": "H1",
+ "from": "2024.01.01",
+ "to": "2025.12.31",
+ "spread_points": 30.0,
+ "slippage_points": 0.0,
+ "deposit": 10000.0,
+ "lots": 0.1,
+ "strategies": [
+  {
+   "name": "AQ_kit_01",
+   "order": "EnterAtMarket",
+   "trades": 31,
+   "net_profit": 94.5,
+   "blocks": [
+    "AND",
+    "ATRCrossDown",
+    "ATRCrossUp",
+    "Boolean",
+    "BooleanVariable",
+    "CloseAllPositions",
+    "EnterAtMarket",
+    "MarketPositionIsLong",
+    "MarketPositionIsShort",
+    "Not"
+   ]
+  },
+  {
+   "name": "AQ_kit_02",
+   "order": "EnterAtStop",
+   "trades": 260,
+   "net_profit": -493.6,
+   "blocks": [
+    "AND",
+    "BiggestRange",
+    "Boolean",
+    "BooleanVariable",
+    "CloseAllPositions",
+    "EnterAtStop",
+    "Fractal",
+    "MarketPositionIsLong",
+    "MarketPositionIsShort",
+    "Multiplication",
+    "Not",
+    "Number"
+   ]
+  },
+  {
+   "name": "AQ_kit_03",
+   "order": "EnterAtLimit",
+   "trades": 36,
+   "net_profit": 853.9,
+   "blocks": [
+    "AND",
+    "AroonFallFromTop",
+    "AroonUpFallFromTop",
+    "BBWidthRatio",
+    "Boolean",
+    "BooleanVariable",
+    "CloseAllPositions",
+    "EnterAtLimit",
+    "HeikenAshiClose",
+    "KERbelowLevel",
+    "MarketPositionIsLong",
+    "MarketPositionIsShort"
+   ]
+  },
+  {
+   "name": "AQ_kit_04",
+   "order": "EnterAtStop",
+   "trades": 54,
+   "net_profit": 248.5,
+   "blocks": [
+    "AND",
+    "ATR",
+    "Boolean",
+    "BooleanVariable",
+    "Close",
+    "CloseAllPositions",
+    "EnterAtStop",
+    "IchimokuKumoBreakoutBearish",
+    "IchimokuKumoBreakoutBullish",
+    "MarketPositionIsLong",
+    "MarketPositionIsShort",
+    "Multiplication"
+   ]
+  },
+  {
+   "name": "AQ_kit_05",
+   "order": "EnterAtMarket",
+   "trades": 175,
+   "net_profit": 650.5,
+   "blocks": [
+    "AND",
+    "BBBarOpensAboveUp",
+    "BBBarOpensBelowDown",
+    "Boolean",
+    "BooleanVariable",
+    "CloseAllPositions",
+    "CurrentDayOfWeekIs",
+    "EnterAtMarket",
+    "KCBarOpensAboveLower",
+    "KCBarOpensBelowUpper",
+    "MarketPositionIsLong",
+    "MarketPositionIsShort"
+   ]
+  },
+  {
+   "name": "AQ_kit_06",
+   "order": "EnterAtLimit",
+   "trades": 36,
+   "net_profit": -3034.9,
+   "blocks": [
+    "AND",
+    "BBRange",
+    "Bid",
+    "Boolean",
+    "BooleanVariable",
+    "CloseAllPositions",
+    "CloseD",
+    "CrossesAbove",
+    "CrossesBelow",
+    "EnterAtLimit",
+    "MarketPositionIsLong",
+    "MarketPositionIsShort"
+   ]
+  },
+  {
+   "name": "AQ_kit_07",
+   "order": "EnterAtStop",
+   "trades": 53,
+   "net_profit": 174.0,
+   "blocks": [
+    "AND",
+    "Boolean",
+    "BooleanVariable",
+    "CloseAllPositions",
+    "EnterAtStop",
+    "Ichimoku",
+    "MarketPositionIsLong",
+    "MarketPositionIsShort",
+    "Multiplication",
+    "Not",
+    "Number",
+    "Plus"
+   ]
+  },
+  {
+   "name": "AQ_kit_08",
+   "order": "EnterReverseAtMarket",
+   "trades": 101,
+   "net_profit": 3126.2,
+   "blocks": [
+    "AND",
+    "Boolean",
+    "BooleanVariable",
+    "CloseAllPositions",
+    "EnterReverseAtMarket",
+    "MarketPositionIsLong",
+    "MarketPositionIsShort",
+    "Not",
+    "WPRCrossDown",
+    "WPRCrossUp",
+    "WoodiesTrendDown"
+   ]
+  },
+  {
+   "name": "AQ_kit_09",
+   "order": "EnterAtLimit",
+   "trades": 27,
+   "net_profit": 5573.8,
+   "blocks": [
+    "AND",
+    "ATR",
+    "Boolean",
+    "BooleanVariable",
+    "CloseAllPositions",
+    "EnterAtLimit",
+    "HighW",
+    "KERbelowLevel",
+    "LowW",
+    "MarketPositionIsLong",
+    "MarketPositionIsShort",
+    "Multiplication"
+   ]
+  },
+  {
+   "name": "AQ_kit_10",
+   "order": "EnterAtMarket",
+   "trades": 110,
+   "net_profit": 5042.8,
+   "blocks": [
+    "AND",
+    "Boolean",
+    "BooleanVariable",
+    "CloseAllPositions",
+    "DIMinusChangesDown",
+    "DIPlusChangesUp",
+    "EnterAtMarket",
+    "MarketPositionIsLong",
+    "MarketPositionIsShort",
+    "Not"
+   ]
+  }
+ ]
+}
